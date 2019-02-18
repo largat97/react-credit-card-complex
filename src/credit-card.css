@@ -1,0 +1,23 @@
+.input-container{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .input-form{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 15px;
+    border: 1px solid #000;
+    color: #000;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  input[type="number"]::-webkit-inner-spin-button, 
+  input[type="number"]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+  }
